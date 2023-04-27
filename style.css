@@ -1,3 +1,4 @@
+/* This is how to locate the CANVAS in the CENTER of the page!!! */
 canvas {
   left: calc(50% - 200px);
   top: calc(50vh - 200px);
