@@ -103,6 +103,37 @@ h3 {
   transition-duration: 0.4s;
 }
 
+.red {
+  color: #FCEAEA;
+  background-color: #FCEAEA;
+}
+
+.orange {
+  color: #FCF2EA;
+  background-color: #FCF2EA;
+}
+
+.yellow {
+  color: #FCFAEA;
+  background-color: #FCFAEA;
+}
+
+.green {
+  color: #EAFCEB;
+  background-color: #EAFCEB;
+}
+
+.blue {
+  color: #EAF3FC;
+  ;
+  background-color: #EAF3FC;
+}
+
+.purple {
+  color: #F6EAFC;
+  background-color: #F6EAFC;
+}
+
 .button-container {
   display: flex;
   justify-content: center;

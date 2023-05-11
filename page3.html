@@ -14,8 +14,6 @@
 
 <body>
 
-  <!-- <script src="script.js"></script> -->
-
   <h1 class="page2-h1">How's Your Day?</h1>
   <h2 id="p3_message"></h2>
 
@@ -23,14 +21,15 @@
     <h3>Are you a dog person or cat person?</h3>
     <p></p>
 
-    <a href="page3.html">
-      <button class="button" id="p3_dog" data-response="dog">Dog</button>
-    </a>
+    <div class="button-container">
+      <a href="page4.html?response=dog">
+        <button class="button" id="p3_dog" data-response="dog">Dog</button>
+      </a>
 
-    <a href="page3.html">
-      <button class="button" id="p3_cat" data-response="cat">Cat</button>
-    </a>
-
+      <a href="page4.html?response=cat">
+        <button class="button" id="p3_cat" data-response="cat">Cat</button>
+      </a>
+    </div>
   </div>
 
   <script src="script_p2.js"></script> <!-- determining the id message -->

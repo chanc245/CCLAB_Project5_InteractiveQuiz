@@ -1,5 +1,3 @@
-// script_p1.js
-
 function getDate() {
   var dateInput = document.getElementById("date-input");
   var userBirthDate = dateInput.value;
@@ -30,4 +28,7 @@ function calculateDaysUntilBirthday(birthDate) {
   return daysUntilBirthday;
 }
 
-export { getDate };
+console.log(getDate());
+
+// export { getDate };
+// import { getDate } from './script_p1.js'; 
