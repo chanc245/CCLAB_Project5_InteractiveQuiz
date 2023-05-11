@@ -46,6 +46,10 @@ h2 {
   font-family: 'Fredoka One', cursive;
 }
 
+h3 {
+  margin: 0;
+}
+
 .page2-h1 {
   color: #646464;
 }
@@ -58,6 +62,18 @@ h2 {
   font-size: 20px;
   text-align: center;
 
+  font-family: 'Fredoka One', cursive;
+}
+
+#question_p3 {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  /* margin: 0; */
+  transform: translate(-50%, -50%);
+
+  font-size: 20px;
+  text-align: center;
   font-family: 'Fredoka One', cursive;
 }
 

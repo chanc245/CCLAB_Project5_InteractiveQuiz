@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const message = document.getElementById("message");
+  const message = document.getElementById("p3_message");
 
   const urlParams = new URLSearchParams(window.location.search);
   const response = urlParams.get("response");
