@@ -5,10 +5,10 @@
 // import { likeFlower } from './script_p5.js';
 
 // Use the imported variables in your script
-console.log(getDate());
-console.log(likeAnimal);
-console.log(likeColor);
-console.log(likeFlower);
+// console.log(getDate());
+// console.log(likeAnimal);
+// console.log(likeColor);
+// console.log(likeFlower);
 
 
 function setup() {
