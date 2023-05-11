@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 
@@ -17,7 +18,7 @@
   <h1>How's Your Day?</h1>
   <h2>Here's a little servey that will take you around 2 min :D </h2>
 
-  <div id="container">
+  <div id="question">
     <label for="name-input">Please enter your name:</label>
     <input type="text" id="name-input" name="name">
 
@@ -28,12 +29,14 @@
 
     <br>
 
-    <button class="button" onclick="getDate()">Submit</button>
+    <a href="page2.html">
+      <button class="button" onclick="getDate()">Submit</button>
+    </a>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script> <!-- // add in p5 library -->
   <script src="p5_script.js"></script>
-  <script src="script.js"></script>
+  <script src="script_p1.js"></script>
 
 </body>
 

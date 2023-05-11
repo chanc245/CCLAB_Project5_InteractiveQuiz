@@ -8,6 +8,11 @@ canvas {
   position: relative;
 }
 
+body {
+  background-color: #DCDCDC;
+  /* set the background color to a light gray */
+}
+
 h1 {
   position: absolute;
   top: 27%;
@@ -29,6 +34,7 @@ h2 {
   top: 42%;
   left: 0;
   z-index: 1;
+  color: black;
   /* background-color: white; */
   /* padding: 10px; */
   margin: 0;
@@ -40,7 +46,11 @@ h2 {
   font-family: 'Fredoka One', cursive;
 }
 
-#container {
+.page2-h1 {
+  color: #646464;
+}
+
+#question {
   position: absolute;
   top: 55%;
   left: 50%;
@@ -55,19 +65,6 @@ h2 {
   display: inline-block;
   /* left: 50px;
   top: 130px; */
-}
-
-/* POSITION OF THE MOUSE */
-#square {
-  width: 50px;
-  height: 50px;
-  background-color: bisque;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  color: white;
 }
 
 .button {
@@ -88,6 +85,16 @@ h2 {
   border-radius: 8px;
 
   transition-duration: 0.4s;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  margin: 0 10px;
+  /* add some margin between the buttons */
 }
 
 .button:hover {

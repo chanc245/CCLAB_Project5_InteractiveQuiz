@@ -12,7 +12,6 @@ var nameInput = document.getElementById("name-input");
 var userName = nameInput.value;
 
 //birthday
-
 function calculateDaysUntilBirthday(birthDate) {
   var today = new Date();
   var currentYear = today.getFullYear();
