@@ -1,6 +1,22 @@
 /* This is how to locate the CANVAS in the CENTER of the page!!! */
 canvas {
-  left: calc(50% - 200px);
-  top: calc(50vh - 200px);
+  /* left: calc(50% - 200px);
+  top: calc(50vh - 200px); */
+  justify-content: center;
+  align-items: center;
+
   position: relative;
+}
+
+/* POSITION OF THE MOUSE */
+#square {
+  width: 50px;
+  height: 50px;
+  background-color: bisque;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: white;
 }

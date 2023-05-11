@@ -1,20 +1,10 @@
-let img;
+var square = document.getElementById("square");
 
-function preload() {
-  img = loadImage("duck.png");
-}
-
-function setup() {
-  let c = createCanvas(400, 400);
-  c.parent('canvas-wrapper');
-
-  imageMode(CENTER);
-}
-
-function draw() {
-  // background(220);
-  ellipse(200, 200, 50, 50);
-
-  image(img, mouseX, mouseY, 100, 100);
-
-}
+document.addEventListener("mousemove", function (event) {
+  var x = event.clientX;
+  var y = event.clientY;
+  square.style.left = x + "px";
+  square.style.top = y + "px";
+  square.textContent = "x: " + (x - 20) + ", y: " + (y - 20);
+  //I dont know why 20 conpensation is nesscory, but haha it works :)
+});
