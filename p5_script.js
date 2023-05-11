@@ -13,9 +13,8 @@ function setup() {
 
 function draw() {
   background(220);
-  ellipse(200, 200, 50, 50);
 
-  // image(img, mouseX, mouseY, 100, 100);
+
 
 }
 

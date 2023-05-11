@@ -8,6 +8,23 @@ canvas {
   position: relative;
 }
 
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  /* background-color: white; */
+  /* padding: 10px; */
+  margin: 0;
+  font-size: 96px;
+  /* font-weight: bold; */
+  width: 100%;
+  text-align: center;
+  /* Add this line */
+
+  font-family: 'Fredoka One', cursive;
+}
+
 /* POSITION OF THE MOUSE */
 #square {
   width: 50px;
