@@ -1,4 +1,4 @@
-let likeAnimal = {};
+let likeAnimal;
 
 document.addEventListener("DOMContentLoaded", () => {
   const message_p3 = document.getElementById("p4_message");
@@ -8,9 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (response_p3 === "dog") {
     message_p3.innerText = "woof woof!";
-    likeAnimal.animal = "cat";
+    likeAnimal = "dog";
   } else if (response_p3 === "cat") {
     message_p3.innerText = "meow~";
-    likeAnimal.animal = "cat";
+    likeAnimal = "cat";
   }
 });
+
+console.log(likeAnimal);

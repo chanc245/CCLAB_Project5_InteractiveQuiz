@@ -9,36 +9,35 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 
-  <title>How's Your Day?</title>
+  <title>Like Dog or Cat?</title>
 </head>
 
 <body>
   <div id="canvas-wrapper"></div>
 
-  <h1>How's Your Day?</h1>
-  <h2>Here's a little servey that will take you around 2 min :D </h2>
+  <h1 class="page2-h1">How's Your Day?</h1>
+  <h2 id="p5_message"></h2>
 
-  <div id="question">
-    <label for="name-input">Please enter your name:</label>
-    <input type="text" id="name-input" name="name">
+  <div id="question_p3">
+    <h3>Do you like flowers? (last question :D)</h3>
+    <p></p>
 
-    <br>
+    <div class="button-container">
+      <a href="page6.html">
+        <button class="button">YES!</button>
+      </a>
 
-    <label for="date-input">Pleasae enter your date of birth:</label>
-    <input type="date" id="date-input" name="date">
-
-    <br>
-
-    <a href="page2.html">
-      <button class="button" onclick="getDate()">Submit</button>
-    </a>
+      <a href="page6.html">
+        <button class="button">no.</button>
+      </a>
+    </div>
   </div>
 
-  <script src="script_p1.js"></script>
+  <script src="script_p4.js"></script> <!-- determining the id message -->
+  <script src="script_p5.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script> <!-- // add in p5 library -->
   <script src="p5_script.js"></script>
-
 </body>
 
 </html>

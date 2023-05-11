@@ -1,4 +1,15 @@
 //background
+// import { getDate } from './script_p1.js';
+// import { likeAnimal } from './script_p3.js';
+// import { likeColor } from './script_p4.js';
+// import { likeFlower } from './script_p5.js';
+
+// Use the imported variables in your script
+console.log(getDate());
+console.log(likeAnimal);
+console.log(likeColor);
+console.log(likeFlower);
+
 
 function setup() {
   let c = createCanvas(windowWidth - 15, windowHeight - 20);
@@ -7,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(200);
 
 
 
