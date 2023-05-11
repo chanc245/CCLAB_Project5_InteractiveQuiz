@@ -37,19 +37,19 @@ function setup() {
   imageMode(CENTER);
 
   squareX1 = width / 2;
-  squareY1 = height / 2;
+  squareY1 = height / 2 + 100;
 
   squareX2 = width / 2 + 200;
-  squareY2 = height / 2;
+  squareY2 = height / 2 + 100;
 
   squareX3 = width / 2 - 200;
-  squareY3 = height / 2;
+  squareY3 = height / 2 + 100;
 
   squareX4 = width / 2 + 400;
-  squareY4 = height / 2;
+  squareY4 = height / 2 + 100;
 
   squareX5 = width / 2 - 400;
-  squareY5 = height / 2;
+  squareY5 = height / 2 + 100;
 }
 
 function draw() {

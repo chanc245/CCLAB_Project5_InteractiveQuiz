@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const response_p3 = urlParams.get("response");
 
   if (response_p3 === "yes") {
-    message_p3.innerText = "NICE :D Here's some flower you can drag around with!";
+    message_p3.innerText = "NICE :D Here are some flowers you can drag around with!";
     // likeAnimal = "dog";
   } else if (response_p3 === "no") {
-    message_p3.innerText = "oh no ;-; I guess you can still play with some flowers..";
+    message_p3.innerText = "it's alright! You can drag around some flower to get closer to them c:";
     // likeAnimal = "cat";
   }
 });

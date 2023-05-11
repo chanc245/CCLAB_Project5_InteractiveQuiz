@@ -28,7 +28,14 @@ function calculateDaysUntilBirthday(birthDate) {
   return daysUntilBirthday;
 }
 
-console.log(getDate());
+console.log(userName)
 
-// export { getDate };
-// import { getDate } from './script_p1.js'; 
+document.addEventListener("DOMContentLoaded", () => {
+  const message_p2 = document.getElementById("p2_message");
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const userName = urlParams.get("name");
+  const daysUntilBirthday = urlParams.get("daysUntilBirthday");
+
+  message_p2.innerText = "Hey " + userName + "! Days until your next birthday is " + daysUntilBirthday + " :D";
+});

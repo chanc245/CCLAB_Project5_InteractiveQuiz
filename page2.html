@@ -16,14 +16,17 @@
   <div id="canvas-wrapper"></div>
 
   <h1 class="page2-h1">How's Your Day?</h1>
-  <h2>Are you having a good day so far?</h2>
+  <!-- <h2 id="p2_message"></h2> -->
 
-  <div id="question">
+  <div id="question_p3">
+    <h3>Are you having a good day so far?</h3>
+    <p></p>
+
     <div class="button-container">
-
       <a href="page3.html?response=good">
         <button class="button" id="p2_yes" data-response="good">Yes!</button>
       </a>
+
       <a href="page3.html?response=bad">
         <button class="button" id="p2_no" data-response="bad">no..</button>
       </a>
@@ -31,7 +34,9 @@
     </div>
   </div>
 
+  <script src="script_p1.js"></script>
   <script src="script_p2.js"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script> <!-- // add in p5 library -->
   <script src="p5_script.js"></script>
 
