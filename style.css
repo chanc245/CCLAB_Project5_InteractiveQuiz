@@ -42,7 +42,7 @@ h2 {
 
 #container {
   position: absolute;
-  top: 53%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
@@ -68,4 +68,28 @@ h2 {
   align-items: center;
   font-size: 16px;
   color: white;
+}
+
+.button {
+  background-color: #9C9C9C;
+  color: white;
+
+  border: none;
+  padding: 10px 24px;
+
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #BDBDBD;
 }
