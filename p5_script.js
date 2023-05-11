@@ -1,14 +1,9 @@
-let img;
-
-function preload() {
-  img = loadImage("duck.png");
-}
+//background
 
 function setup() {
   let c = createCanvas(windowWidth - 15, windowHeight - 20);
   c.parent('canvas-wrapper');
 
-  imageMode(CENTER);
 }
 
 function draw() {

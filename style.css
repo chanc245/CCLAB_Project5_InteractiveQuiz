@@ -10,19 +10,51 @@ canvas {
 
 h1 {
   position: absolute;
-  top: 0;
+  top: 27%;
   left: 0;
   z-index: 1;
   /* background-color: white; */
-  /* padding: 10px; */
+  padding: 0px;
   margin: 0;
   font-size: 96px;
   /* font-weight: bold; */
   width: 100%;
   text-align: center;
-  /* Add this line */
 
   font-family: 'Fredoka One', cursive;
+}
+
+h2 {
+  position: absolute;
+  top: 42%;
+  left: 0;
+  z-index: 1;
+  /* background-color: white; */
+  /* padding: 10px; */
+  margin: 0;
+  font-size: 30px;
+  /* font-weight: bold; */
+  width: 100%;
+  text-align: center;
+
+  font-family: 'Fredoka One', cursive;
+}
+
+#container {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  text-align: center;
+
+  font-family: 'Fredoka One', cursive;
+}
+
+#date-input {
+  display: inline-block;
+  /* left: 50px;
+  top: 130px; */
 }
 
 /* POSITION OF THE MOUSE */

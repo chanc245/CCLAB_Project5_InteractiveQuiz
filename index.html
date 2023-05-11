@@ -8,16 +8,32 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 
-  <title>Document</title>
+  <title>How's Your Day?</title>
 </head>
 
 <body>
   <div id="canvas-wrapper"></div>
 
   <h1>How's Your Day?</h1>
+  <h2>Here's a little servey that will take you around 2 min :D </h2>
+
+  <div id="container">
+    <label for="name-input">Please enter your name:</label>
+    <input type="text" id="name-input" name="name">
+
+    <br>
+
+    <label for="date-input">Pleasae enter your date of birth:</label>
+    <input type="date" id="date-input" name="date">
+
+    <br>
+
+    <button onclick="getDate()">Submit</button>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script> <!-- // add in p5 library -->
   <script src="p5_script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 
