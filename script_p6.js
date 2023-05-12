@@ -1,3 +1,17 @@
+console.log
+  (
+    "Name: " + localStorage.getItem('name') +
+    ", days until birthday: " + localStorage.getItem('daysUntilBirthday') +
+    ", Animal: " + localStorage.getItem('animal') +
+    ", Color: " + localStorage.getItem('color')
+  );
+
+
+// localStorage.getItem('animal');
+// localStorage.getItem('color');
+// localStorage.getItem('daysUntilBirthday');
+
+
 let flower1;
 let flower2;
 let flower3;

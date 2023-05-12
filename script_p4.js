@@ -1,4 +1,4 @@
-let likeColor = {};
+let likeColor;
 
 document.addEventListener("DOMContentLoaded", () => {
   const message_p4 = document.getElementById("p5_message");
@@ -8,21 +8,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (response_p4 === "red") {
     message_p4.innerText = "red apple 🍎";
-    likeColor.color = "red";
+    likeColor = "red";
   } else if (response_p4 === "orange") {
     message_p4.innerText = "orange orange 🍊";
-    likeColor.color = "orange";
+    likeColor = "orange";
   } else if (response_p4 === "yellow") {
     message_p4.innerText = "yellow sun 🔆";
-    likeColor.color = "yellow";
+    likeColor = "yellow";
   } else if (response_p4 === "green") {
     message_p4.innerText = "green grass 🌱";
-    likeColor.color = "green";
+    likeColor = "green";
   } else if (response_p4 === "blue") {
     message_p4.innerText = "blue ocean 🌊";
-    likeColor.color = "blue";
+    likeColor = "blue";
   } else if (response_p4 === "purple") {
     message_p4.innerText = "purple grape 🍇 ";
-    likeColor.color = "purple";
+    likeColor = "purple";
   }
+
+  localStorage.setItem('color', likeColor);
 });

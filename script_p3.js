@@ -1,4 +1,4 @@
-let likeAnimal;
+let likeAnimal = "";
 
 document.addEventListener("DOMContentLoaded", () => {
   const message_p3 = document.getElementById("p4_message");
@@ -13,6 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
     message_p3.innerText = "meow~";
     likeAnimal = "cat";
   }
+
+  localStorage.setItem('animal', likeAnimal);
 });
 
-console.log(likeAnimal);
+
+
