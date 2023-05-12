@@ -9,7 +9,8 @@ function getDate() {
   var nameInput = document.getElementById("name-input");
   var userName = nameInput.value;
 
-  return { userName, daysUntilBirthday };
+  // return { userName, daysUntilBirthday };
+  localStorage.setItem('name', userName);
 }
 
 function calculateDaysUntilBirthday(birthDate) {
@@ -25,10 +26,12 @@ function calculateDaysUntilBirthday(birthDate) {
   var timeDiff = birthDateThisYear.getTime() - today.getTime();
   var daysUntilBirthday = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
-  return daysUntilBirthday;
+  // return daysUntilBirthday;
+
+  localStorage.setItem('daysUntilBirthday', daysUntilBirthday);
 }
 
-console.log(userName)
+// console.log(userName)
 
 document.addEventListener("DOMContentLoaded", () => {
   const message_p2 = document.getElementById("p2_message");
@@ -37,5 +40,5 @@ document.addEventListener("DOMContentLoaded", () => {
   const userName = urlParams.get("name");
   const daysUntilBirthday = urlParams.get("daysUntilBirthday");
 
-  message_p2.innerText = "Hey " + userName + "! Days until your next birthday is " + daysUntilBirthday + " :D";
+  message_p2.innerText = "Hey " + localStorage.getItem("name") + "! Your birthday is going to be in " + localStorage.getItem("daysUntilBirthday") + " days :D";
 });
